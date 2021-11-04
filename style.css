@@ -1,0 +1,1190 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 180%;
+    letter-spacing: 0em;
+}
+
+
+/* div {
+    outline: 1px solid black;
+} */
+
+
+
+/* header */
+
+
+.header {
+    width: 900px;
+    height: 100px;
+    position: fixed;
+    font-size:0;
+    text-align: right;
+    background-color: #ffffff;
+    outline: #bebebe 1px solid;
+}
+
+.header_logo{
+    width: 79.7px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.header_tel{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:#333333;
+    text-align: center;
+}
+
+
+.fa-phone-alt{
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    top: 41px;
+    
+}
+
+.header_menu{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+} 
+
+.fa-bars{
+    font-size: 28px;
+    color: #333333;
+    position: relative;
+    top: 36px;
+    
+}
+
+/* back to TOP */
+
+.back_to_top{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: inherit;
+}
+
+.back_to_top_btn{
+    position: absolute;
+    top: -40px;
+    width: 25px;
+    height: 25px;
+    margin: 52.5px 32.5px;  
+}
+
+.fa-angle-double-up{
+    color: #376207;
+    font-size: 20px;
+    text-align: center;
+}
+
+.back_to_top_title{
+    width: 90px;
+    height: 45px;
+    font-size: 13px;
+    color: #376207;
+}
+
+
+
+/* mein */
+
+.main{
+    width: 900px;
+    height: auto;
+    padding-bottom: 16px;
+}
+
+.blank1{
+    width: 900px;
+    height: 50px;
+}
+
+.blank2{
+    width: 900px;
+    height: 50px;
+    padding-top: 16px;   
+}
+
+/* top_img */
+
+
+.top_img{    
+    width: calc(900px - 38.4px);
+    height: 450px;
+    padding: 50px 19.2px 0 19.2px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/site_saigen_img/index_kv01.jpg);
+    background-size: cover;
+}
+
+.lr_icon{
+    display: flex;
+    align-items: center;
+}
+
+.dot_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.fa-chevron-left{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fa-chevron-right{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dot_img{
+    width: 0;
+    height: 0;
+    padding: 5px;
+    margin: 4px 4px 13px 4px;
+    background-color: rgba(0, 0,0,0.67);
+    border-radius: 50px;
+}
+
+.dot_img_green{
+    background-color: #95b868;
+    width: 0;
+    height: 0;
+    padding: 5px;
+    margin: 4px 4px 13px 4px;
+    border-radius: 50px;
+    border-color: #95b868;
+}
+
+/* news */
+
+.news{
+    width: 900px;
+    height: 1290.38px;
+    padding: 16px 0;
+}
+
+.news_box{
+    width: 861.600px;
+    height: 1282.38px;
+    padding: 0 19.2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.news_lead{
+    width: 861.625px;
+    height: 162px;
+    padding: 9.25px 0;
+}
+
+.news_img{
+    width: 861.625px;
+    height: 861.625px;
+}
+
+.news_txt{
+    font-size: 16px;
+}
+
+.news_sub{
+    width: 861.625px;
+    height: 27px;
+    padding-bottom: 9.25px;
+    text-align: left;
+    color: #751125;
+}
+
+.news_btn{
+    width: 829.625px;
+    height: 24px;
+    padding: 16px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.news_btn:hover{
+    color: #751125;
+}
+
+/* 
+.news_btn_link{
+
+
+} */
+
+/* message */
+
+.message{
+    width: 861.600px;
+    height: 54px;
+    padding: 0 19.2px;
+    margin: 80px 0;
+    display: flex;
+}
+
+.message_title{
+    width: 861.625px;
+    height: 54px;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+
+
+.slide_img{
+    display: flex;
+    width: 900px;
+    height: 270.938px;
+    padding: 16px 0;
+}
+
+.img_min{
+    flex-basis: 49.975px;
+    width: 393.625px;
+    height: 262.406px;
+    padding: 0 3.2px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.img_full{
+    width: 393.625px;
+    height: 262.406px;
+    padding: 0 3.2px;
+}
+
+.img_min_left{
+    object-position: right;
+}
+
+.img_min_right{
+    object-position: left;
+}
+
+.mission_box1{
+    width: 861.6px;
+    height: 476px;
+    padding: 0 19.20px;
+    margin-top: 50px;
+}
+
+.mission_cmt{
+    width: 861.625px;
+    height: 476px;
+}
+
+.mission_box2{
+    width: 900px;
+    height: 45.500px;
+    padding: 16px 0;   
+}
+
+.mission2_cmt{
+    display: inline-block;
+    width: 861.625px;
+    height: 27px;
+    padding: 9.25px 19.2px;
+    text-align: center;
+}
+
+/* info */
+
+.info{
+    width: 900px;
+    height: 666.031px;
+    padding: 16px 0;
+    margin-top: 66px;
+}
+
+.info_box1{
+   width: 900px;
+   height: 276.875px; 
+   padding: 0 19.2px;
+   box-sizing: border-box;
+}
+
+.info_img1{
+    width: 414.812px;
+    height: 276.531px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.info_reserve_box{
+    width: 403.312px;
+    height: 276.875px;
+    display: inline-block;
+}
+
+.info_title{
+    width: 403.312px;
+    height: 27px;
+    padding-bottom: 9.25px;
+    text-align: left;
+    font-weight: bold;
+    color: #761125;
+    
+}
+
+.info_reserve{
+    width: 350px;
+    height: 131px;
+    padding: 5px;
+}
+
+.info_reserve_box1{
+    width: 350px;
+    height: 18px;
+}
+
+.info_reserve_box1_1{
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+}
+
+.info_reserve_box1_2{
+    font-size: 5px;
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+    position: relative;
+    top: -30px;
+    left: 242px;
+    color: #333333;
+    text-decoration: none;
+    color: inherit;
+}
+
+.info_reserve_box2{
+    width: 348px;
+    height: 66px;
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-around;
+    border: #bebebe 1px solid;
+}
+
+.info_reserve_box2_weekday{
+    width: 45px;
+    height: 56px;
+    padding: 5px 0;
+    margin: 0 1.5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9e9e9;
+    outline: #bebebe dotted 1px; 
+}
+
+.info_reserve_box2_saturday{
+    width: 45px;
+    height: 56px;
+    padding: 5px 0;
+    margin: 0 1.5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5ecef;
+    outline: #bebebe dotted 1px; 
+}
+
+.info_reserve_box2_sunday{
+    width: 45px;
+    height: 56px;
+    padding: 5px 0;
+    margin: 0 1.5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3e6e6;
+    outline: #bebebe dotted 1px; 
+}
+
+.info_date{
+    width: 45px;
+    height: calc(66px - 11px - 27px);
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.info_week{
+    width: 27px;
+    height: 11px;
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+    font-size: 11px;
+    line-height: normal;
+    text-align: center;
+}
+
+.info_none{
+    width: 27px;
+    height: 12px;
+    padding: 15px 0 5px 0;
+    margin: 0 9px;
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+
+.info_reserve_box3{
+    width: 338px;
+    height: 30px;
+    padding: 5px;
+    border: solid 1px #bebebe ;
+}
+
+.info_reserve_box3_1{
+    width: 200px;
+    height: 12px;
+    padding-bottom: 3px;
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.info_reserve_box3_2{
+    color: #2893e5;
+    text-decoration: none;
+    outline: none;
+    font-size: 5px;
+    font-family: Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Arial, Sans-serif;;
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+
+.info_box2{
+    display: flex;
+    justify-content: space-between;
+    width: 861.600px;
+    height: 331.5px; 
+    padding: 0 19.2px;
+    margin-top: 50px;
+}
+
+.info_box2_box{
+    width: 414.812px;
+    height: 331.5px;
+}
+
+.info_cmt1{
+    width: 414.812px;
+    height: 27px;
+    padding-bottom: 9.25px;
+    font-weight: bold;
+    color: #751125;
+}
+
+.info_cmt2{
+    width: 414.812px;
+    height: 140px;
+    font-size: 13px;
+}
+
+.info_cmt3{
+    width: 414.812px;
+    height: 28px;
+}
+
+.info_cmt4{
+    width: 414.812px;
+    height: 54px;
+    padding-bottom: 9.25px;
+    font-weight: bold;
+    color: #751125;
+}
+
+.info_btn{
+    display: block;
+    width: 380.812px;
+    height: 22px;
+    padding: 16px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.info_btn:hover{
+    color: #751125;
+}
+
+/* 
+.info_btn_link{
+
+} */
+
+.info_box2_img_box{
+    width: 414.812px;
+    height: 323.5px;
+    margin-bottom: 8px;
+}
+
+.info_img2{
+    width: 414.812px;
+    height: 277.094px;
+}
+
+/* makimuras eye */
+
+.makimuras_eye{
+    width: 900px;
+    height: auto;
+    padding: 16px 0px;
+    margin-bottom: 100px;
+}
+
+.makimuras_eye_box{
+    width: 900px;
+    height: 608.5px;
+    margin-bottom: 32px;
+}
+
+
+.makimuras_eye_title{
+    width: 861px;
+    height: 54px; 
+    padding: 0 19.2px;
+    margin: 80px 0;   
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.ul{
+    width: 861.600px;
+    height: 250.5px;
+    padding: 0 19.2px;
+    margin-bottom: 32px;
+}
+
+.ul_list{
+    width: 861.625px;
+    height: 250.5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ul_item{
+    width: 258.484px;
+    height: 234.5px;
+    margin-bottom: 16px;
+}
+
+.ul_item_img_box{
+    width: 258.484px;
+    height: 145px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* justify-content: center; */
+    /* box-sizing: inherit; */
+}
+
+.ul_item_img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.ul_item_date{
+    width: 258.484px;
+    height: 28px;
+    font-size: 13px;
+}
+
+.ul_item_cmt{
+    width: 251.984px;
+    height: 32.5px;
+    padding: 6.5px 6.5px 6.5px 0;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.viewmore_btn{
+    width: 861.6px;
+    height: 64px;
+    padding: 64px 19.2px;
+    margin-bottom: 8px;
+}
+
+.viewmore{
+    width: 827.625px;
+    height: 22px;
+    padding:  16px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.viewmore:hover{
+    color: #751125;
+}
+
+/* .viewmore_link{
+
+
+} */
+
+
+
+/* insta */
+
+.insta{
+    display: inline-block;
+    width: 861.625px;
+    height: 54px;
+    padding: 0 19.2px;
+    margin: 80px 0;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.insta_item_list1{
+    width: 900px;
+    height: 1296px;
+    padding: 16px 0;
+}
+
+.insta_item_logo{
+    width: 851.625px;
+    height: 50px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.insta_item_logoimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-image: url(/site_saigen_img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    color: inherit;
+}
+
+.insta_item_logoimg:hover{
+    background-image: none;
+    background-color: rgba(0, 0,0,0.75);
+    z-index: -3;
+}
+
+.insta_item_logo_back{
+    color: #ffffff;
+    position: relative;
+    top: 10px;
+    left: 18px;
+    z-index: -2;
+}
+
+.insta_item_logotxt{
+    width: calc(281.672px - 50px) ;
+    height: 29px;
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.insta_item_list2{
+    width: 861.6px;
+    height: 1186px;
+    padding: 0 19.2px 10px 19.2px;
+    margin-bottom: 100px;
+}
+
+.insta_item_list3{
+    width: 851.625px;
+    height: 1065px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.insta_item_img_box{
+    width: 212.906px;
+    height: 213px;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.fa-clone{
+    color: #ffffffe6;
+    position: relative;
+    top: -205px;
+    left: 180px;
+}
+
+.insta_item_img{
+    width: 202.906px;
+    height: 203px;
+    padding: 5px;
+}
+
+.insta_item_img_box:hover{
+    opacity: 0.9;
+}
+
+.insta_item_list4{
+    width: 861.625px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta_loadmore{
+    width: 73.078px;
+    height: 18px;
+    padding: 12px;
+    border: black solid 2px;
+    margin-right: 6px;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.insta_follow{
+    width: 139.453px;
+    height: 18px;
+    padding: 12px;
+    border: black solid 2px;
+    margin-right: 6px;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    cursor: text;
+}
+
+.insta_follow:hover{
+    background-color: #408bd1;
+}
+
+.insta_follow_icon{
+    width: 13.125px;
+    height: 15px;
+    margin: 0 7px -1px 0;
+}
+
+.insta_icon1{
+    color: #333333;
+}
+
+
+
+.insta_follow_cmt{
+    font-size: 12px;
+    line-height: normal;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+
+
+/* works */
+
+.works_box1{
+    width: 900px;
+    height: 949.031px;
+    padding-top: 16px;
+    background-image: url(/site_saigen_img/index_bg_01.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.works{
+    width: 861.625px;
+    height: 54px;
+    padding: 0 19.2px;
+    margin: 80px 0;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.works_box2{
+    width: 861.6px;
+    height: 635.031px;
+    padding: 0 19.2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.works_box3{
+    width: 414.812px;
+    height: 635.031px;
+}
+
+.works_img{
+    width: 414.812px;
+    height: 276.531px;
+}
+
+.works_title{
+    width: 414.812px;
+    height: 24px;
+    padding: 9.25px 0;
+    line-height: normal;
+    color: #ffffff;
+    font-size: 18.5px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.works_cmt{
+    width: 414.812px;
+    height: 308px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+/* staff */
+
+.staff{
+    width: 900px;
+    height: 654.984px;
+    padding: 16px 0;
+}
+
+
+.staff_title1{
+    width: 861.6px;
+    height: 175px;
+    padding: 0 19.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staff_title2{
+    width: 71.203px;
+    height: 40px;
+    padding-bottom: 15px;
+    margin: 60px 0;
+    font-size: 30px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.staff_line{
+    color: #92b967;
+    position: relative;
+    right: 40px;
+    top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.staff_box1{
+    width: 861.6px;
+    height: 479.984px;
+    padding: 0 19.2px;
+}
+
+.staff_box2{
+    width: 646.219px;
+    height: 431.984px;
+    padding: 32px 0 16px 0;
+    margin: 0 107.703px;
+    display: flex;
+}
+
+.staff_img_box{
+    width: 209.859px;
+    height: 383.984px;
+    margin: 16px 24.313px 32px 24.313px;
+}
+
+.staff_img{
+    width: 209.859px;
+    height: 209.859px;
+}
+
+.staff_info_box{
+    width: 387.719px;
+    height: 431.984px;
+}
+
+.staff_director{
+    width: auto;
+    height: 18px;
+    margin-bottom: 7px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.staff_name{
+    width: auto;
+    height: 27.988px;
+    padding-bottom: 7.2px;
+    margin-bottom: 4.8px;
+    color: #333333;
+    font-size: 24px;
+}
+
+.staff_profile{
+    width: auto;
+    height: 28px;
+    margin-bottom: 7px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.staff_profile_cmt{
+    width: auto;
+    height: 308px;
+    margin-bottom: 24px;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* access */
+
+.access{
+    width: 861.600px;
+    height: 382px;
+    margin: 0 19.2px;   
+    display: flex;
+}
+
+.access_box1{
+    width: calc(355.719px + 32px);
+    height: calc(350px + 32px);
+    display: flex;
+    align-items: center;
+}
+
+.access_box2{
+    width: 355.719px;
+    height: 218px;
+    padding: 48px 16px 16px 16px;
+}
+
+.access_title{
+    width: auto;
+    height: 54px;
+    color: #333333;
+    font-size: 40px;
+    text-align: center;
+    line-height: normal;
+}
+
+.access_info_box{
+    width: auto;
+    height: calc(218px - 54px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.access_info{
+    width: 99.703px;
+    height: 36px;
+    padding-right: 7px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.access_info_cmt{
+    width: 242px;
+    height: 36px;
+    padding-left: 7px;
+    color: #333333;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.access_img{
+    width: 473.906px;
+    height: 350px;
+    padding: 16px 19.2px;
+}
+
+/* contact */
+
+.contact{
+    width: 900px; 
+    height: 286px;
+    padding-top: 48px;
+    margin-top: 23px;
+    background-image: url(/site_saigen_img/bg_cta.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_box1{
+    width: 861.6px;
+    height: 134px;
+    padding: 0 19.2px;
+}
+
+.contact_info1{
+    width: auto;
+    height: 28px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+}
+
+.contact_info2{
+    width: auto;
+    height: 28px;
+    margin: 26px 0;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal
+}
+
+.contact_info3{
+    width: auto;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.contact_info3_tel{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contact_info3_num{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.contact_box2{
+    width: 861.6px;
+    height: 152px;
+    padding: 0 19.2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.contact_btn{
+    width: 821.25px;
+    height: 22px;
+    padding: 16px;
+    border: #bebebe solid 1px;
+    border-radius: 5px;
+    margin: 48px 3.2px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact_btn:hover{
+    color: #751125;
+}
+
+.icon{
+    width: 900px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_img{
+    width: 33px;
+    height: 33px;
+    border: #bbbbbb solid 1px;
+    margin: 0 5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta_icon2{
+    color: #bbbbbb;
+}
+
+.fa-facebook-f{
+    color: #bbbbbb;
+}
+
+.reserved{
+    width: 900px;
+    height: 40px;
+    padding-top: 22px; 
+    font-size: 12px;
+    text-align: center;  
+    color: #333333;
+
+}
